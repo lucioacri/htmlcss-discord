@@ -131,13 +131,10 @@ section.grey {
 
 .blue {
   flex-basis: 67%;
-  background-color: #1e90ff;
-  height: 400px;
 }
 
 .pink {
   flex-basis: 33%;
-  background-color: #ffc0ca;
 }
 
 .green {
@@ -166,7 +163,6 @@ footer {
 }
 
 .pink {
-  background-color: #f08180;
   flex-basis: 33%;
 }
 
