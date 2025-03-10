@@ -81,8 +81,7 @@ li {
 /* HEADER */
 
 header {
-  background-color: #234fb9;
-  padding-bottom: 10px;
+  background-color: #255ee9;
 }
 
 .page-header {
@@ -91,7 +90,7 @@ header {
 
 .container.page-header > * {
   border: none;
-  background-color: #234fb9;
+  background-color: #255ee9;
   margin-bottom: 10px;
   margin-top: 10px;
   display: flex;
@@ -121,18 +120,21 @@ header {
   background-image: url(../img/jumbo.png);
   color: white;
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.foot-header > * {
-  padding: 10px 0;
+  height: 600px;
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
 }
 
 .container.pic {
   flex-basis: 60%;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.container.pic > * {
+  margin-bottom: 20px;
 }
 
 /* MAIN */
