@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* UTILITY */
+
+.debug,
+.debug * {
+  min-height: 50px;
+  padding: 5px;
+  background-color: #ff000022;
+  border: 2px dashed red;
+}
+
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px dashed black;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* HEADER */
+
+header {
+  background-color: #8eafbb;
+  padding-bottom: 10px;
+}
+
+.page-header {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  gap: 5px;
+}
+
+.container.links {
+  flex-basis: 66%;
+  justify-content: center;
+  height: 30px;
+  align-items: center;
+}
+
+.container.login {
+  flex-basis: 33%;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  display: flex;
+}
+
+.container.logo {
+  flex-basis: 33%;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+  display: flex;
+}
+
+.container.page-header {
+  border: none;
+  background-color: #9d791d;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.foot-header {
+  background-color: blue;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container.pic {
+  height: 200px;
+  background-color: #ef82ed;
+  flex-basis: 60%;
+}
+
+/* MAIN */
+
+section.white {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.white > .container {
+  display: flex;
+  border: none;
+}
+
+section.grey {
+  background-color: lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.grey > .container {
+  display: flex;
+  border: none;
+  flex-direction: row-reverse;
+}
+
+.blue {
+  flex-basis: 67%;
+  background-color: #1e90ff;
+  height: 400px;
+}
+
+.pink {
+  flex-basis: 33%;
+  background-color: #ffc0ca;
+}
+
+.green {
+  height: 800px;
+  background-color: green;
+}
+
+.grey > .container.green {
+  border: 2px dashed black;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #23272a;
+  padding-top: 10px;
+}
+
+.head-footer {
+  display: flex;
+  height: 400px;
+}
+
+.pink {
+  background-color: #f08180;
+  flex-basis: 33%;
+}
+
+.aquamarine {
+  background-color: #20b3aa;
+  flex-basis: 67%;
+  display: flex;
+}
+
+.container.aquamarine > .container {
+  flex-basis: 25%;
+  border: 2px dashed white;
+}
+
+.container.bot-footer {
+  background-color: #6aceac;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+  border: none;
+  margin-top: 30px;
+}
+
+.container.bot-footer > p {
+  border: 2px dashed black;
+  background-color: #bd8b91;
+}
