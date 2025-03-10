@@ -17,8 +17,13 @@ a {
   padding: 0px px;
 }
 
+p {
+  font-size: 1.5rem;
+}
+
 h2 {
   margin-bottom: 30px;
+  font-size: 2.5rem;
 }
 
 h4 {
@@ -71,6 +76,7 @@ li {
   border: none;
   border-radius: 50px;
   padding: 10px 20px;
+  font-size: 1.5rem;
 }
 
 .aqua {
@@ -148,6 +154,7 @@ section.white {
 .white > .container {
   display: flex;
   border: none;
+  align-items: center;
 }
 
 section.grey {
@@ -160,6 +167,7 @@ section.grey {
   display: flex;
   border: none;
   flex-direction: row-reverse;
+  align-items: center;
 }
 
 .blue {
@@ -184,8 +192,12 @@ main {
   display: block;
   text-align: center;
 }
+
 .bottom-text > .container {
   background-image: url(../img/stars.svg);
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* FOOTER */
